@@ -1,0 +1,45 @@
+{% extends "BasicMould.html" %}
+{% block content %}
+<style>
+     body {
+  background-image: url('https://wallpapercave.com/wp/wp2297898.jpg');
+}h1 {text-align: center; color:skyblue;}
+</style>
+<h1>Edit Books Detail Platform</h1>
+<div class="container container">
+  <div class="row">
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xl-12 col-xxl-12">
+      <form action="" method="post">
+        <table class="table table-borderless">
+          <tr>
+            <td>Book Name</td>
+            <td><input name="newname" class = "form-control" type="text"> </td>
+          </tr>
+
+          <tr>
+            <td>Author</td>
+            <td><input name="newauthor" class = "form-control" type="text"> </td>
+          </tr>
+
+          <tr>
+            <td>Category</td>
+            <td><input name="newcat" class = "form-control" type="text"> </td>
+          </tr>
+          <tr>
+            <td>Price</td>
+            <td><input name="newprice" class = "form-control" type="text"> </td>
+          </tr>
+          <tr>
+            <td>Publisher</td>
+            <td><input name="newpub" class = "form-control" type="text"> </td>
+          </tr>
+          <tr>
+            <td><button  class="btn btn-success"type = "submit" >Confirm Changes</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

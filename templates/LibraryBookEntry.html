@@ -1,0 +1,44 @@
+{% extends "BasicMould.html" %}
+{% block content %}
+<style>
+     body {
+  background-image: url('https://wallpapercave.com/wp/wp2297898.jpg');
+}h1 {text-align: center; color:skyblue;}
+</style>
+<h1> Welcome, To the Book Adding Platform</h1>
+<div class="container container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xl-12 col-xxl-12">
+            <form action="" method="post">
+                <table class="table table-borderless">
+                    <tr>
+                        <td>book name</td>
+                        <td><input name="name" class = "form-control" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>author</td>
+                        <td><input name="author" class = "form-control" type="text"> </td>
+                    </tr>
+                        <tr>
+                        <td>category</td>
+                        <td><input name="cat" class = "form-control" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>price</td>
+                        <td><input name="price" class = "form-control" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>publisher</td>
+                        <td><input name="pub" class = "form-control" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td><button  class="btn btn-success"type = "submit" >Add</button></td>
+                    </tr>
+                    </table>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}
